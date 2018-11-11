@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4FE2364C21957CA50019C599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2364B21957CA50019C599 /* AppDelegate.swift */; };
-		4FE2364E21957CA50019C599 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2364D21957CA50019C599 /* ViewController.swift */; };
 		4FE2365121957CA50019C599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE2364F21957CA50019C599 /* Main.storyboard */; };
 		4FE2365321957CA70019C599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE2365221957CA70019C599 /* Assets.xcassets */; };
 		4FE2365621957CA70019C599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE2365421957CA70019C599 /* LaunchScreen.storyboard */; };
 		4FE2366121957CA80019C599 /* HomeWork___Swift___29__UITableView_Static_CellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2366021957CA80019C599 /* HomeWork___Swift___29__UITableView_Static_CellsTests.swift */; };
 		4FE2366C21957CA80019C599 /* HomeWork___Swift___29__UITableView_Static_CellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2366B21957CA80019C599 /* HomeWork___Swift___29__UITableView_Static_CellsUITests.swift */; };
+		4FE2367A21957D0B0019C599 /* OBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2367921957D0B0019C599 /* OBTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		4FE2364821957CA50019C599 /* HomeWork - Swift - 29. UITableView Static Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork - Swift - 29. UITableView Static Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE2364B21957CA50019C599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FE2364D21957CA50019C599 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FE2365021957CA50019C599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FE2365221957CA70019C599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FE2365521957CA70019C599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		4FE2366721957CA80019C599 /* HomeWork - Swift - 29. UITableView Static CellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HomeWork - Swift - 29. UITableView Static CellsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE2366B21957CA80019C599 /* HomeWork___Swift___29__UITableView_Static_CellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeWork___Swift___29__UITableView_Static_CellsUITests.swift"; sourceTree = "<group>"; };
 		4FE2366D21957CA80019C599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE2367921957D0B0019C599 /* OBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,9 @@
 		4FE2364A21957CA50019C599 /* HomeWork - Swift - 29. UITableView Static Cells */ = {
 			isa = PBXGroup;
 			children = (
-				4FE2364B21957CA50019C599 /* AppDelegate.swift */,
-				4FE2364D21957CA50019C599 /* ViewController.swift */,
+				4FE2367921957D0B0019C599 /* OBTableViewController.swift */,
 				4FE2364F21957CA50019C599 /* Main.storyboard */,
+				4FE2364B21957CA50019C599 /* AppDelegate.swift */,
 				4FE2365221957CA70019C599 /* Assets.xcassets */,
 				4FE2365421957CA70019C599 /* LaunchScreen.storyboard */,
 				4FE2365721957CA70019C599 /* Info.plist */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FE2364E21957CA50019C599 /* ViewController.swift in Sources */,
+				4FE2367A21957D0B0019C599 /* OBTableViewController.swift in Sources */,
 				4FE2364C21957CA50019C599 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
